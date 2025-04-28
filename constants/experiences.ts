@@ -1,6 +1,15 @@
 export const resumeLink = "https://drive.google.com/file/d/1whhcfyQzReNxdiarE_LGdHvRABorNPyA/view?usp=sharing";
 
-export const experiences = [
+export interface Experience {
+  role: string;
+  company: string;
+  joinDate: string;
+  endDate: string;
+  detail: string[];
+  skills: string[];
+  certificate?: string;
+}
+export const experiences: Experience[]= [
   {
     role: 'Full Stack Developer',
     company: 'Self-Initiated Project',
