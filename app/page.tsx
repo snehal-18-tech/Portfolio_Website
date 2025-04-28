@@ -9,7 +9,7 @@ export default function Home() {
           Hi, my name is
         </span>
         <span className="block text-2xl font-bold text-textLight-600 md:text-4xl lg:text-6xl">
-          Suhaan Bhandary.
+          Snehal Thombare.
         </span>
       </h1>
       <h2 className="text-2xl font-bold text-textLight-400 md:text-3xl lg:text-5xl">
@@ -17,7 +17,7 @@ export default function Home() {
       </h2>
       <p className="my-4 text-textLight-400 md:max-w-[50ch]">
         Full Stack Developer with a passion for innovation, specializing in
-        React, Express, and TypeScript, dedicated to crafting seamless solutions
+        Frontend technologies dedicated to crafting seamless solutions
         and enhancing user experiences.
       </p>
 

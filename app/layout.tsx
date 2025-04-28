@@ -15,11 +15,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: 'Portfolio | Suhaan Bhandary',
-    template: '%s | Suhaan Bhandary',
+    default: 'Portfolio | Snehal Thombare',
+    template: '%s | Snehal Thombare',
   },
   description:
-    'Full Stack Developer with a passion for innovation, specializing in React, Express, and TypeScript, dedicated to crafting seamless solutions and enhancing user experiences.',
+    'Full Stack Developer with a passion for innovation, specializing in frontend technologies dedicated to crafting seamless solutions and enhancing user experiences.',
   alternates: {
     canonical: '/',
   },
@@ -57,6 +57,7 @@ export default function RootLayout({
           {skills}
           {experience}
           {projects}
+        
           <Footer />
         </main>
       </body>

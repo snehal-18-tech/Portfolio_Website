@@ -1,21 +1,21 @@
 export const education = [
   {
     college:
-      'K. K. Wagh Institute Of Engineering Education And Research, Pune University',
-    role: 'BE Computer',
-    joinDate: '2020',
-    endDate: '2024',
+      'K. K. Wagh Institute Of Engineering Education And Research (Autonomous), Pune University',
+    role: 'Btech Computer',
+    joinDate: '2022',
+    endDate: '2026',
   },
   {
-    college: 'Matoshri Junior College, Nashik',
+    college: 'Arts Commerce and Science College, Nandgaon',
     role: 'HSC',
-    joinDate: '2018',
-    endDate: '2020',
+    joinDate: '2021',
+    endDate: '2022',
   },
   {
-    college: 'St Francis High School, Nashik',
+    college: 'New English School,Nandgaon',
     role: 'SSC',
-    joinDate: '2017',
-    endDate: '2018',
+    joinDate: '2019',
+    endDate: '2020',
   },
 ];

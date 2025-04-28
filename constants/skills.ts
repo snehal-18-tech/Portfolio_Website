@@ -1,36 +1,30 @@
 export const skillsList = [
   {
     label: 'Languages',
-    skills: ['JavaScript', 'HTML', 'CSS', 'C++', 'Python', 'Java', 'Bash'],
+    skills: ['JavaScript', 'HTML', 'CSS', 'C++', 'Java'],
   },
   {
     label: 'Frameworks and Libraries',
     skills: [
       'Express',
-      'NextJs',
+      'NodeJs',
       'React',
-      'Redux',
       'React Native',
-      'TailwindCSS',
-      'Django',
+      'Bootstrap',
     ],
   },
   {
     label: 'Tools',
     skills: [
-      'AWS',
       'Git',
       'GitHub',
       'Postman',
-      'Bash',
-      'Slack',
-      'Confluence',
       'VScode',
-      'NeoVim',
+      'Canva'
     ],
   },
   {
     label: 'Databases',
-    skills: ['MySQL', 'PostgreSQL', 'MongoDB'],
+    skills: ['MySQL','MongoDB'],
   },
 ];

@@ -12,14 +12,17 @@ export default function SkillsLayouts({
       <h2 className="mb-6 text-center text-4xl md:mb-14">About Me</h2>
       <div className="md:grid md:grid-cols-2">
         <div className="mx-auto mb-6 hidden overflow-hidden rounded-sm md:mb-0 md:block md:translate-y-2">
-          <Image
-            src={SuhaanBhandaryImage}
+        <Image
+             src={SuhaanBhandaryImage}
             alt="Suhaan Bhandary Standing with Hoodie On"
-            className="mx-auto rounded-sm border-[2px] border-textLight-800"
-            style={{
-              borderRadius: '30% 70% 44% 56% / 72% 30% 70% 28%',
-            }}
-          ></Image>
+     width={300} // Adjust width here
+  height={300} // Adjust height here
+  className="mx-auto rounded-sm border-[2px] border-textLight-800"
+  style={{
+    borderRadius: '30% 70% 44% 56% / 72% 30% 70% 28%',
+    objectFit: 'cover',
+  }}
+/>
         </div>
         <div>
           <div>

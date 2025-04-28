@@ -28,6 +28,16 @@ const navLinks = [
     name: 'Education',
     href: '/education#skills',
   },
+  {
+    name: 'Certificates',
+    href: 'https://drive.google.com/drive/folders/1imhYCOmcQ0spHD3IMH41Lp_3Rwlxh0B9?usp=sharing',
+    external: true,
+  },
+  {
+    name: 'Contact',
+    href: '/contact',   // <-- change to direct /contact, not /#contact
+    external: true,     // <-- mark as external
+  },
 ];
 
 export default function Header() {
@@ -52,7 +62,7 @@ export default function Header() {
 
       <div className="fixed left-0 right-0 top-0 z-[45] mx-auto flex h-24 items-center bg-bgBlack-800 px-10 py-2">
         <h1 className="text-2xl font-bold">
-          <Link href="/">SB</Link>
+          <Link href="/">ST</Link>
         </h1>
 
         <nav
@@ -62,18 +72,21 @@ export default function Header() {
         >
           <div className="flex grow items-center justify-center">
             <ul className="flex flex-col items-center justify-center gap-2 p-16 md:flex-row md:gap-8">
-              {navLinks.map(({ name, href }) => (
-                <li key={name}>
-                  <Link
-                    href={href}
-                    onClick={closeNavbar}
-                    className="text-xl hover:text-accent-400 md:text-base"
-                    aria-label={name}
-                  >
-                    {name}
-                  </Link>
-                </li>
-              ))}
+            {navLinks.map(({ name, href, external }) => (
+  <li key={name}>
+    <Link
+      href={href}
+      onClick={closeNavbar}
+      className="text-xl hover:text-accent-400 md:text-base"
+      aria-label={name}
+      target={external ? '_blank' : '_self'}  // <-- this opens Contact in new tab
+      rel={external ? 'noopener noreferrer' : undefined}
+    >
+      {name}
+    </Link>
+  </li>
+))}
+
             </ul>
           </div>
 

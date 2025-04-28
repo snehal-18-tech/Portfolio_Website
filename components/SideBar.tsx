@@ -10,7 +10,7 @@ export default function SideBar() {
         <ul className="mx-auto flex flex-col items-center justify-center gap-6 text-[1.6rem] after:block after:h-20 after:w-[1px] after:bg-textLight-200 after:content-['']">
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
             <Link
-              href="https://www.linkedin.com/in/suhaan-bhandary"
+              href="https://www.linkedin.com/in/snehal-pandurang-thombare-367095258/"
               aria-label="LinkedIn"
               target="_blank"
               rel="noreferrer noopener"
@@ -20,7 +20,7 @@ export default function SideBar() {
           </li>
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
             <Link
-              href="https://github.com/Suhaan-Bhandary"
+              href="https://github.com/snehal-18-tech"
               aria-label="GitHub"
               target="_blank"
               rel="noreferrer noopener"
@@ -38,23 +38,14 @@ export default function SideBar() {
               <TbBrandLeetcode />
             </Link>
           </li>
-          <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link
-              href="https://auth.geeksforgeeks.org/user/suhaanbhandary1/practice"
-              aria-label="GeeksForGeeks"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <SiGeeksforgeeks />
-            </Link>
-          </li>
+         
         </ul>
       </div>
 
       <div className="fixed bottom-0 left-auto right-10 z-10 hidden w-10 md:block">
         <div className="mx-auto flex flex-col items-center justify-center after:mt-4 after:block after:h-20 after:w-[1px] after:bg-textLight-200 after:content-['']">
           <Link
-            href="gmail:suhaanbhandary1@gmail.com"
+            href="gmail:snehalthombare2020@gmail.com"
             className="text-sms font-mono text-[0.8rem] hover:translate-y-[-5px] hover:text-accent-400"
             style={{
               letterSpacing: '0.1em',
@@ -64,7 +55,7 @@ export default function SideBar() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            suhaanbhandary1@gmail.com
+            snehalthombare2020@gmail.com
           </Link>
         </div>
       </div>

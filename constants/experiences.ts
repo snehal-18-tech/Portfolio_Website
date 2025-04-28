@@ -1,74 +1,54 @@
-export const resumeLink = "https://drive.google.com/file/d/1QxocBJL1z5REKnKX0TOklx-3AZL54nmg/view?usp=sharing";
+export const resumeLink = "https://drive.google.com/file/d/1whhcfyQzReNxdiarE_LGdHvRABorNPyA/view?usp=sharing";
 
 export const experiences = [
   {
-    role: 'Software Engineer',
-    company: 'Josh Software Pvt. Ltd',
-    joinDate: 'Jan 2024',
-    endDate: 'Present',
-    detail: [
-      `Developing RESTful APIs and SCIM Protocol using GoLang, focused on Networking and security.`,
-      `Collaborated with team members to troubleshoot issues and optimize MySQL queries.`,
-    ],
-    skills: ['Golang', 'Git', 'MySQL', 'Google Cloud'],
-    joiningLetter:
-      'https://drive.google.com/file/d/1PrMA-6Li5sGQ4yyNoAsJHcjtFdLhZOKX/view?usp=sharing',
-  },
-  {
     role: 'Full Stack Developer',
-    company: 'Syphor IT Services',
-    joinDate: 'Sep 2023',
-    endDate: 'Dec 2023',
+    company: 'Self-Initiated Project',
+    joinDate: 'April 2025',
+    endDate: 'May 2025',
     detail: [
-      `Worked on a Learning Management System for the Ministry of Education of Ghana, Africa.`,
-      `Improved performance by reducing queries to the database. Also rectified AWS build configuration for a service within the application. Organized code into components to properly manage state, reducing the total re-renders.`,
+      `Built a complete Task Manager app in machine test for an interview using MySQL, Html/Css, Php and JavaScript.`,
+      `Implemented user authentication, user and admin panel with analytics.`,
     ],
-    moreDetail: [
-      {
-        detail: 'LMS System Launch',
-        link: 'https://www.youtube.com/watch?v=uKxyMuqu_5M&t=1093s',
-      },
-    ],
-    skills: [
-      'ReactJs',
-      'ExpressJs',
-      'Typescript',
-      'AWS',
-      'PostgreSQL',
-      'Git',
-      'GitHub',
-    ],
-    certificate:
-      'https://drive.google.com/file/d/1-dZ_OEWuZ7y-aOC6vQn5q5vlyyP4O2GK/view?usp=sharing',
+    skills: ['MySQL', 'JavaScript', 'HTML/CSS', 'Php'],
+   
   },
   {
-    role: 'Frontend Developer',
-    company: 'ArcTech Labs Pvt Ltd',
-    joinDate: 'Dec 2022',
-    endDate: 'Feb 2023',
+    role: 'Creative Head',
+    company: 'MIBCS & CSI Committees',
+    joinDate: 'June 2024',
+    endDate: 'June 2025',
     detail: [
-      `Increased visual feedback on House Mapping Tool for improving User Experience.`,
-      `Improved performance by 30% by redesigning Routing structure which Refined loading Saved Data Performance.`,
+      `Organized and conducted multiple coding interviews and technical events.`,
+      `Created Various Posters related to various events.`,
     ],
-    skills: [
-      'ReactJs',
-      'ExpressJs',
-      'Typescript',
-      'AWS',
-      'PostgreSQL',
-      'Git and GitHub',
-    ],
+    skills: ['Teamwork', 'Leadership', 'Interviewing', 'Event Management','Canva'],
     certificate:
-      'https://drive.google.com/file/d/1AHwu_qiF92uOcMvOG-9prSLXYapkslrq/view?usp=sharing',
+    'https://drive.google.com/file/d/13QOq5vg-CxNn6zMDxANDLverK3x2FzHs/view?usp=sharing',
   },
   {
-    role: 'DSA Content Creator',
-    company: 'Fundesk',
-    joinDate: 'Sep 2022',
-    endDate: 'Nov 2022',
+    role: 'Volunteer',
+  company: 'Avishkar Zonal Level Competition',
+  joinDate: 'Jan 2024',
+  endDate: 'Jan 2024',
+  detail: [
+    `Assisted in organizing and managing the zonal level academic competition Avishkar.`,
+    `Helped coordinate logistics and guided participants during the event.`,
+  ],
+  skills: ['Teamwork', 'Event Management', 'Communication'],
+  },
+  
+  {
+    role: 'Volunteer',
+    company: 'E-Yantra (CSI & Poonam Ecovision)',
+    joinDate: 'Mar 2024',
+    endDate: 'Mar 2024',
     detail: [
-      `Created over 50+ Articles on DSA topics such as Array, LinkedList, Trees and Graph.`,
+      `Actively supported robotics and embedded systems-based competition events.`,
+      `Facilitated smooth execution of activities under CSI and Poonam Ecovision foundation.`,
     ],
-    skills: ['DSA', 'Communication', 'English', 'Writing'],
+    skills: ['Volunteerism', 'Team Collaboration', 'Technical Exposure'],
+    certificate:
+    'https://drive.google.com/file/d/13QOq5vg-CxNn6zMDxANDLverK3x2FzHs/view?usp=sharing',
   },
 ];
